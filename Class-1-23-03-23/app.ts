@@ -37,6 +37,8 @@ let arr: string[];
 arr = ["Apple", "Orange", ];
 arr.push("Pineapple");
 arr.push();
+console.log(arr)
+
 
 const arr2: number[] = [1, 2, 3];
 arr2.push();

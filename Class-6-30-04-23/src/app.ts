@@ -73,7 +73,8 @@ const input1=<HTMLInputElement>document.getElementById("input1")!;
 
 
 
-//this is workaround, we can pass obj of different key/values so we jsut wrote object so not to change it each time
+//this is workaround, we can pass obj of different key/values so we 
+//jsut wrote object so not to change it each time
 
 // function merge1(objA:object,objB:object){
 // return {...objA,...objB}
@@ -85,7 +86,8 @@ const input1=<HTMLInputElement>document.getElementById("input1")!;
 
 
 
-//t and U are convention to take , we are telling them to take objA n objB respectively and set type by checking it
+//t and U are convention to take , we are telling them to take objA n objB respectively and 
+//set type by checking it
 //ts is now also smart to know we are merging so if u hover over it it willl show intersection T & U
 
 function merge2<T, U >(objA: T, objB: U) {

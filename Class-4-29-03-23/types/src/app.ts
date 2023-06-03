@@ -133,13 +133,8 @@ abstract class aProduct {
 
 }
 
-
-// const product1 = new Product(1,"Cup",100)
-// product1.name="Apple"
-// console.log("product1",product1.name)
-
-
-
+//const new1=new aProduct(...)
+//u can't ^^ make instance like this of abstract class
 
 //inheritance
 //By extends we get the whole class of product in clothing
